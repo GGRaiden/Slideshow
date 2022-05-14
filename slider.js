@@ -17,5 +17,5 @@ var slideIndex = 0;
       }
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 3000); // Zmeni obrazek kazde 3 sekundy
+      setTimeout(showSlides, 3000);
     }
